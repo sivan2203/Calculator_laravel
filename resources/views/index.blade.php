@@ -16,16 +16,16 @@
   </div>
   <div id="content">
     <h2>Калькулятор демона </h2>
-    <form action='/'>
-        <p>Первое значение: <input type="text" value="0" id="num1"></p>
-        <p>Действие: <input type="text" value="0" id="sign"></p>
-        <p>Второе значение: <input type="text" value="0" id="num2"></p>
-        <p><input type="submit" value="Расчитать"></p>
-        <p id="answer">Ответ: 22</p>
-
-
-    </form>
+      <form method="post" id="ajax_form" action="{{route('postData')}}">
+          <input type="text" name="num1" placeholder="Значение 1"><br>
+          <input type="text" name="sign" placeholder="Действие"><br>
+          <input type="text" name="num2" placeholder="Значение 2"><br>
+          <input type="submit" id="btn" value="Расчитать">
+      </form>
+      <div id="result_form"><p>Ответ {{$result}}</p></div>
   </div>
   <div id="footer">&copy; Иван Сысоев</div>
+  <script src="/js/ajax.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
  </body>
 </html>

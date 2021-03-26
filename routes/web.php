@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MainController@index');
+Route::get('/', 'MainController@index')->name('index');
+Route::post('/post-data', 'PostController@recieveData')->name('postData');

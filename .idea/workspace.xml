@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/ajax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -155,6 +156,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1qFz3wcMAHzkz3wtF9NOGbkYLqA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -190,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616689931754</updated>
-      <workItem from="1616689934980" duration="3555000" />
+      <workItem from="1616689934980" duration="8722000" />
     </task>
     <servers />
   </component>
@@ -207,5 +211,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="125" width="1720" height="797" key="DiffContextDialog" timestamp="1616696139865">
+      <screen x="0" y="25" width="1920" height="997" />
+    </state>
+    <state x="100" y="125" width="1720" height="797" key="DiffContextDialog/0.25.1920.997@0.25.1920.997" timestamp="1616696139865" />
   </component>
 </project>
