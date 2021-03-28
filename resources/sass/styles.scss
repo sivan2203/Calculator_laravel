@@ -1,5 +1,9 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$margin-sidebar: 10px 10px 20px 5px;
+$margin-content: 10px 5px 20px 25%;
+
 body {
-    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    font: 11pt $font-stack; /* Рубленый шрифт текста */
     margin: 0; /* Отступы на странице */
 }
 h1 {
@@ -20,10 +24,10 @@ h2 {
     border: 1px solid #333; /* Параметры рамки вокруг */
     width: 20%; /* Ширина колонки */
     padding: 5px; /* Поля вокруг текста */
-    margin: 10px 10px 20px 5px; /* Значения отступов */
+    margin: $margin-sidebar; /* Значения отступов */
 }
 #content { /* Правая колонка */
-    margin: 10px 5px 20px 25%; /* Значения отступов */
+    margin: $margin-content; /* Значения отступов */
     padding: 5px; /* Поля вокруг текста */
     border: 1px solid #333; /* Параметры рамки */
 
