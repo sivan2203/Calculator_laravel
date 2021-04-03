@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/calc1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/calc2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/calc3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="Add gallery in page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,8 +193,16 @@
       <workItem from="1616830803806" duration="858000" />
       <workItem from="1616910075042" duration="3485000" />
       <workItem from="1617032318239" duration="16000" />
-      <workItem from="1617364537172" duration="5713000" />
+      <workItem from="1617364537172" duration="6025000" />
     </task>
+    <task id="LOCAL-00001" summary="Add gallery in page">
+      <created>1617435597212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617435597214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +219,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add gallery in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gallery in page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="125" width="1720" height="797" key="DiffContextDialog" timestamp="1616696139865">
