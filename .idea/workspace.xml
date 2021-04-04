@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="Add gallery in page" />
+    <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="Add gallery in page">
+      <change afterPath="$PROJECT_DIR$/public/js/fancyboxConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +177,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
@@ -193,7 +199,7 @@
       <workItem from="1616830803806" duration="858000" />
       <workItem from="1616910075042" duration="3485000" />
       <workItem from="1617032318239" duration="16000" />
-      <workItem from="1617364537172" duration="6025000" />
+      <workItem from="1617364537172" duration="8090000" />
     </task>
     <task id="LOCAL-00001" summary="Add gallery in page">
       <created>1617435597212</created>
@@ -229,5 +235,9 @@
       <screen x="0" y="25" width="1920" height="997" />
     </state>
     <state x="100" y="125" width="1720" height="797" key="DiffContextDialog/0.25.1920.997@0.25.1920.997" timestamp="1616696139865" />
+    <state x="560" y="273" key="Vcs.Push.Dialog.v2" timestamp="1617435729706">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1617435729706" />
   </component>
 </project>

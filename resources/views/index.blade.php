@@ -38,5 +38,6 @@
         <div id="result_form"></div>
     </div>
     <div id="footer">&copy; Иван Сысоев</div>
+    <script src="/js/fancyboxConfig.js"></script>
     </body>
 </html>
