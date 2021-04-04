@@ -18,7 +18,7 @@ h2 {
 #header { /* Верхний блок */
     background: #0080c0; /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
-    
+
 }
 #sidebar { /* Левая колонка */
     float: left; /* Обтекание справа */
@@ -33,6 +33,13 @@ h2 {
     border: 1px solid #333; /* Параметры рамки */
 
 }
+
+.container { /* Правая колонка */
+    margin: $margin-content;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
 #footer { /* Нижний блок */
     background: #333; /* Цвет фона */
     padding: 5px; /* Поля вокруг текста */
@@ -42,6 +49,7 @@ h2 {
 
 @media (max-width: 768px) {
     #sidebar {display: none;}
+    #divGallery {display: none}
     #content { /* Правая колонка */
         margin: 10px 5px 20px 5px; /* Значения отступов */
         padding: 5px; /* Поля вокруг текста */

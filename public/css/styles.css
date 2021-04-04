@@ -52,6 +52,13 @@ h2 {
   /* Параметры рамки */
 }
 
+.container {
+  /* Правая колонка */
+  margin: 10px 5px 20px 25%;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
 #footer {
   /* Нижний блок */
   background: #333;
@@ -66,6 +73,10 @@ h2 {
 
 @media (max-width: 768px) {
   #sidebar {
+    display: none;
+  }
+
+  #divGallery {
     display: none;
   }
 
