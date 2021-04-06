@@ -1,4 +1,4 @@
-$font-stack: Arial, Helvetica, sans-serif;
+$font-stack: 'Gilroy',sans-serif;
 $margin-sidebar: 10px 10px 20px 5px;
 $margin-content: 10px 5px 20px 25%;
 
@@ -9,14 +9,14 @@ body {
 h1 {
     font-size: 36px; /* Размер шрифта */
     margin: 0; /* Убираем отступы */
-    color: #fc6; /* Цвет текста */
+    color: #ff9900; /* Цвет текста */
 }
 h2 {
     margin-top: 0; /* Убираем отступ сверху */
 }
 
 #header { /* Верхний блок */
-    background: #0080c0; /* Цвет фона */
+    background: #243849; /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
 
 }
@@ -30,14 +30,8 @@ h2 {
 #content { /* Правая колонка */
     margin: $margin-content; /* Значения отступов */
     padding: 5px; /* Поля вокруг текста */
-    border: 1px solid #333; /* Параметры рамки */
+    //border: 1px solid #333; /* Параметры рамки */
 
-}
-
-.container { /* Правая колонка */
-    margin: $margin-content;
-    padding: 5px;
-    border: 1px solid #333;
 }
 
 #footer { /* Нижний блок */
@@ -45,6 +39,63 @@ h2 {
     padding: 5px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
     clear: left; /* Отменяем действие float */
+}
+
+#calc {
+    width: 200px;
+    box-shadow: 0 3px 15px grey;
+}
+
+.container { /* Правая колонка */
+    margin: $margin-content;
+    padding: 5px;
+    //border: 1px solid #333;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.cell {
+    flex: 33%;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+}
+.num {
+    background-color: #243849;
+    color: #fff;
+    font-weight: 400;
+}
+.cell:hover{
+    background-color: #182530;
+}
+.op {
+    background-color: #ff9900;
+    color: #243849;
+}
+
+.fancybox-slide .fancybox-slide--current,
+.fancybox-slide--image {
+    background: #243849;
+}
+
+* {
+    font-family: 'Gilroy',sans-serif;
+    transition: 0.3s all;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 200px;
+    border: 0;
+    color: #243849;
+    font-size: 18px;
+    padding: 5px 5px;
+    text-align: right;
 }
 
 @media (max-width: 768px) {
@@ -58,7 +109,4 @@ h2 {
     }
 }
 
-.fancybox-slide .fancybox-slide--current,
-.fancybox-slide--image {
-    background: #386646;
-}
+
