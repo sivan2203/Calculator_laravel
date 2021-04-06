@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="Add gallery in page" />
+    <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="Add gallery in page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/fancyboxConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/fancyboxConfig.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +200,7 @@
       <workItem from="1617364537172" duration="8090000" />
       <workItem from="1617550956152" duration="3743000" />
       <workItem from="1617607675921" duration="283000" />
-      <workItem from="1617686838115" duration="614000" />
+      <workItem from="1617686838115" duration="2868000" />
     </task>
     <task id="LOCAL-00001" summary="Add gallery in page">
       <created>1617435597212</created>

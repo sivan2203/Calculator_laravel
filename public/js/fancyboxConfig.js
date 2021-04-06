@@ -1,11 +1,14 @@
-const config = {
+function galleryClose() {
+    alert('Галерея закрыта');
+}
+
+$('[data-fancybox="gallery"]').fancybox({
+    afterClose: function() {
+        setTimeout(function() {
+            galleryClose();
+        }, 0);
+    },
     loop: true,
     infobar: false,
     toolbar: false,
-    imageScale: 2,
-    opacity: 0.8,
-    css: {'background-color': '#ff0000'}
-
-};
-
-$('[data-fancybox="gallery"]').fancybox(config);
+});
