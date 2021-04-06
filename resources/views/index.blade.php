@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     </head>
     <body>
     <div id="header"><h1>Калькулятор Демона</h1></div>
@@ -42,7 +43,7 @@
         <a data-fancybox="gallery" href="/images/tech2big.jpeg"><img src="/images/tech2small.jpeg"></a>
         <a data-fancybox="gallery" href="/images/tech3big.jpeg"><img src="/images/tech3small.jpeg"></a>
     </div>
-    <div id="footer">&copy; Иван Сысоев</div>
+    <div id="footer">&copy; Иван Сысоев 2021</div>
     <script src="/js/fancyboxConfig.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/calc.js"></script>

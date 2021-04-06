@@ -15,6 +15,13 @@ var vue = new Vue({
         },
         calc: function() {
             this.result = eval(this.result);
+            let date = new Date();
+            axios.post('/post-data', {
+                "result": this.result,
+                "time": date
+            }).then(res => {
+                console.log(res); // Результат ответа от сервера
+            });
         }
     }
 })

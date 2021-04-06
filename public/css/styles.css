@@ -61,6 +61,11 @@ h2 {
   /* Цвет текста */
   clear: left;
   /* Отменяем действие float */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
 }
 
 #calc {
