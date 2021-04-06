@@ -90,3 +90,7 @@ h2 {
     /* Параметры рамки */
   }
 }
+.fancybox-slide .fancybox-slide--current,
+.fancybox-slide--image {
+  background: #0BDA51;
+}
