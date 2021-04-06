@@ -5,6 +5,7 @@
         <title>Байки из склепа</title>
         <link rel="stylesheet" href="/css/styles.css">
         <script   src="/js/jquery.min.js"></script>
+        <script src="/js/vue.js"></script>
         <script src="/js/ajax.js"></script>
         <script src="/js/fancybox.js"></script>
 {{--        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">--}}
