@@ -12,8 +12,9 @@ class PostController extends Controller
     public function recieveData(Request $request){
         $result = $request->input('result');
         $date = date('l jS \of F Y h:i:s A');
-        $this->writeLog($result, $date);
-        return response()->json(['answer' => $date], 200);
+        if($this->writeLog($result, $date)) {
+            return response()->json(['answer' => $date], 200);
+        }
     }
 
     public function calculate($num1, $sign, $num2){
@@ -33,8 +34,9 @@ class PostController extends Controller
     }
 
     public function writeLog($result, $date){
+        $file = fopen('/Applications/MAMP/htdocs/homework_2_laravel/public/log/log.txt', 'a');
         $logData = $result. " - " . $date. "\n";
-        $file = Storage::put( 'public/log/log.txt', $logData);
-        return 0;
+        file_put_contents('/Applications/MAMP/htdocs/homework_2_laravel/public/log/log.txt', $logData, FILE_APPEND);
+        return 1;
     }
 }
