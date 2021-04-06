@@ -34,7 +34,7 @@ class PostController extends Controller
 
     public function writeLog($result, $date){
         $logData = $result. " - " . $date. "\n";
-        Storage::put( 'public/log/log.txt', $logData);
+        $file = Storage::put( 'public/log/log.txt', $logData);
         return 0;
     }
 }

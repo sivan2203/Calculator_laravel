@@ -22,10 +22,7 @@
     <list default="true" id="709cccac-0205-4d1d-9072-a1aab525ba74" name="Default Changelist" comment="Add gallery in page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/calc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/log/log.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +203,7 @@
       <workItem from="1617364537172" duration="8090000" />
       <workItem from="1617550956152" duration="3743000" />
       <workItem from="1617607675921" duration="283000" />
-      <workItem from="1617686838115" duration="16201000" />
+      <workItem from="1617686838115" duration="16795000" />
     </task>
     <task id="LOCAL-00001" summary="Add gallery in page">
       <created>1617435597212</created>
@@ -250,6 +247,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="647" y="254" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1617718967757" />
+    <state x="781" y="463" key="NewPhpFileDialog" timestamp="1617719428157">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="781" y="463" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1617719428157" />
     <state x="560" y="273" key="Vcs.Push.Dialog.v2" timestamp="1617435729706">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
