@@ -44,6 +44,7 @@
         <a data-fancybox="gallery" href="/images/tech3big.jpeg"><img src="/images/tech3small.jpeg"></a>
     </div>
     <div id="footer">&copy; Иван Сысоев 2021</div>
+
     <script src="/js/fancyboxConfig.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/calc.js"></script>
